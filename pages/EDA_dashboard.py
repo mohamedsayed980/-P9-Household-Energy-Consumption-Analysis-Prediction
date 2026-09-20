@@ -249,7 +249,7 @@ with tabs[1]:
                                    "Global_intensity"] if c in df.columns]
         fig2, ax2 = plt.subplots(figsize=(7,4))
         bp = ax2.boxplot([df[c].dropna() for c in power_cols],
-                         patch_artist=True, labels=power_cols)
+                         patch_artist=True, tick_labels=power_cols)
         colors_bp = [CLR["amber"], CLR["teal"], CLR["primary"]]
         for patch, color in zip(bp["boxes"], colors_bp):
             patch.set_facecolor(color); patch.set_alpha(0.7)
