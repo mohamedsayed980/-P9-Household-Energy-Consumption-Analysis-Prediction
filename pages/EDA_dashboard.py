@@ -793,7 +793,7 @@ with tabs[10]:
         with col2:
             fig2, ax2 = plt.subplots(figsize=(6,4))
             bp = ax2.boxplot([gA, gB], patch_artist=True,
-                             tick_labels=["Off-Peak","Peak"])
+                             labels=["Off-Peak","Peak"])
             bp["boxes"][0].set_facecolor(CLR["light"])
             bp["boxes"][1].set_facecolor("#fce4ec")
             for m in bp["medians"]: m.set_color(CLR["danger"]); m.set_linewidth(2)
