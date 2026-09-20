@@ -4,6 +4,7 @@ Author : Mohamed · M3
 Dataset: UCI Household Power Consumption · hourly resampled
 """
 # streamlit run "E:\FINAL PROJECTS\P9_household_power_consumption\EDA_dashboard.py"
+import streamlit as st
 
 import pathlib, warnings
 import numpy as np
@@ -17,7 +18,7 @@ from scipy import stats
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from scipy.stats import zscore
-import streamlit as st
+
 
 warnings.filterwarnings("ignore")
 S = st.session_state
