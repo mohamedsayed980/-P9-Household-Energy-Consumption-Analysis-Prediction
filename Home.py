@@ -42,7 +42,7 @@ st.markdown("""
 st.markdown("""
 <div class="hero">
   <h1>⚡ Household Energy Consumption</h1>
-  <p>End-to-end ML pipeline · ~1M minute readings · UCI Dataset · M3 Portfolio · Project 9 of 12</p>
+  <p>End-to-end ML pipeline · ~1M minute readings · UCI Dataset · M3 Portfolio · Project 9 of 13</p>
 </div>""", unsafe_allow_html=True)
 
 c1,c2,c3,c4,c5 = st.columns(5)
